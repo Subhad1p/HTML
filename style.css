@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+  font-family: montserrat ;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+ .input-block1{
+background: burlywood;
+ }
+ .input-block2{
+    background:greenyellow;
+     }
+ 
+ .input-block3{
+    background:rgb(220, 47, 255);
+     }
+     .input-block5{
+        background:black;
+         }
+         .content {
+            background-color: yellow;    
+        }
+        
+        .container {
+            background-color: red;
+            display: flex;
+            flex-direction: row-reverse;
+          }
+          .container > .image {
+            flex: 7.5 0 0%;
+          }
+          .image > img {
+            display: block;
+            max-width: 100%;
+            max-height: 300px;
+          }
+          .container > .text {
+            flex: 5 0 0%;
+          }
+        .row {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+        
+            -webkit-box-orient: horizontal; 
+            -moz-box-orient: horizontal;
+            box-orient: horizontal;
+            flex-direction: row;
+        
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            box-pack: center;
+            justify-content: center;
+        
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            box-align: center;  
+            align-items: center;
+            background-color: burlywood;
+
+        }
+        
+        .cell {
+            -webkit-box-flex: 1;
+            -moz-box-flex: 1;
+            box-flex: 1;
+            -webkit-flex: 1 1 auto;
+            flex: 1 1 auto; 
+        
+            padding: 20px;
+            margin: 20px;
+        
+            background-color: white;
+            border: 2px solid black;
+            text-align: center;
+        
+        }
